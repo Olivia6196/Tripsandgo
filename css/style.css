@@ -45,7 +45,7 @@
 }
 
 .background{
-    background-image: url(../images/background\ image.jpeg);
+    background-image: url(../images/background\ image.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -145,51 +145,7 @@
     background-color: #8a8cd6;
     border: 0.08rem solid #8a8cd6;
 }
-@media (max-width:768px) {
-    .background {
-        width: 72.3%;
-        height: 50vh;
-    }
 
-    .background h1 {
-        font-size: 3.7rem;
-        padding-top: 8.5rem;
-    }
-
-    .navigation ol {
-        display: flex;
-        flex-direction: column;
-        gap: 0.8rem;
-        box-shadow: none;
-        align-items: center;
-        border-bottom: none;
-    }
-     .first{
-        width: 73vw;
-        border-bottom-right-radius: 60%;
-     }
-    .travel h2 {
-        font-size: 1.8rem;
-        position: absolute;
-        left: 13rem;
-        top: 9.5rem;
-    }
-    .travel img{
-        margin-left: 1rem;
-    }
-    .travel p{
-        font-size: 0.9rem;
-        width: 32vw;
-            margin-left: -3rem;
-            line-height: 2;
-            font-weight: 100;
-            margin-bottom: 1.5rem;
-            margin-top: -7rem;
-    }
-    .click{
-        margin-left:-5.2rem;;
-    }
-}
 .about{
     display: flex;
     justify-content: center;
@@ -214,16 +170,6 @@
     text-transform: uppercase;
     color: black;
 }
-@media (max-width:768px) {
-    .about{
-        flex-direction: column;
-        padding-top: 0.2rem;
-    }
-    .aboutus{
-        margin-top: 1.5rem;
-    }
-}
-
 
 .three{
     background-color: #81bdd3;
@@ -283,7 +229,6 @@
 }
 .review-slide{
     position: relative;
-    /* overflow: hidden; */
 }
 .review{
     position: absolute;
@@ -333,10 +278,6 @@
     font-size: 6rem;
     font-weight: 100;
 }
-
-    
-
-
 
 .fifth h2{
     text-align: center;
@@ -438,7 +379,6 @@
     opacity: 0;
 }
 
-
 .contact{
     display: flex;
     gap: 2rem;
@@ -483,17 +423,12 @@
     border: 0.18 solid black;
 }
 
-.contact input:required{
-    border: 0.18rem solid #ff0000c9;
-}
 .inform textarea{
     width: 37.8rem;
     height: 6.5rem;
     border: 0.18 solid black;
 }
-.inform textarea:required{
-    border: 0.18rem solid #ff0000c9;
-}
+
 .inform button{
     margin-top: 2rem;
     margin-left: 14rem;
@@ -547,21 +482,22 @@
    margin-left: 0.3rem;
 }
 
+
 @media (max-width:768px) {
     .bxl-instagram{
-        right: 34.5rem;
+        right: 12.5rem;
         font-size: 1.7rem;
         top: 12.5rem;
         position: fixed;
     }
     .bxl-facebook{
-        right: 34.5rem;
+        right: 12.5rem;
         font-size: 1.7rem;
         top: 9rem;
         position: fixed;
     }
     .bxl-pinterest{
-        right: 34.5rem;
+        right: 12.5rem;
         font-size: 1.7rem;
         top: 6rem;
         position: fixed;
@@ -590,4 +526,230 @@ footer{
     padding: 4rem 0;
     color: #0a50c9;
     background-color: #eaeaea;
+}
+
+
+@media (max-width:768px) {
+    .background {
+        width: 77.85vw;
+        height: 50vh;
+    }
+
+    .background h1 {
+        font-size: 3.7rem;
+        padding-top: 8.5rem;
+    }
+
+    .navigation ol {
+        flex-wrap: wrap;
+        gap: 0.9rem;
+        justify-content: center;
+        margin-left: -4rem;
+        border: none;
+        width: 86vw;
+    }
+
+    .first {
+        width: 77.7vw;
+        border-bottom-right-radius: 60%;
+    }
+
+    .travel h2 {
+        font-size: 1.8rem;
+        position: absolute;
+        left: 13rem;
+        top: 9.5rem;
+    }
+
+    .travel img {
+        margin-left: 1rem;
+    }
+
+    .travel p {
+        font-size: 0.9rem;
+        width: 32vw;
+        margin-left: -3rem;
+        line-height: 2;
+        font-weight: 100;
+        margin-bottom: 1.5rem;
+        margin-top: -7rem;
+    }
+
+    .click {
+        margin-left: -5.2rem;
+        ;
+    }
+
+    .about {
+        flex-direction: column;
+        padding-top: 0.2rem;
+    }
+
+    .aboutus {
+        margin-top: 1.5rem;
+    }
+
+    .about img {
+        width: 48vw;
+        margin-left: -12rem;
+        padding-top: 1rem;
+    }
+
+    .three {
+        width: 77vw;
+        padding-top: 4rem;
+        padding-bottom: 1.5rem;
+        border-top-right-radius: 35%;
+        border-bottom-left-radius: 35%;
+    }
+
+    .three h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .service {
+        flex-direction: column;
+        gap: 0.9rem;
+        padding-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .service p {
+        margin-left: 11rem;
+    }
+
+    .fourth h2 {
+        font-size: 1.5rem;
+        margin-left: -7rem;
+        margin-bottom: 1rem;
+    }
+
+    .bx-chevron-left {
+        display: none;
+    }
+
+    .bx-chevron-right {
+        display: none;
+    }
+
+    .review {
+        top: -0.5rem;
+        left: -20rem;
+        width: 54vw;
+    }
+
+    .customer-review {
+        width: 54vw;
+        line-height: 1.8;
+    }
+
+    .fifth h2 {
+        margin-top: 4rem;
+        padding-top: 14rem;
+        font-size: 1.8rem;
+        margin-left: -9rem;
+    }
+
+    .post {
+        flex-direction: column-reverse;
+        margin: 5rem;
+    }
+
+    .post img {
+        width: 45vw;
+        height: 35vw;
+    }
+
+    .share {
+        border: none;
+        box-shadow: none;
+    }
+
+    .image-wrap {
+        border: none;
+        box-shadow: none;
+        margin-left: 4.3rem;
+    }
+
+    .mission {
+        padding-top: 18.5rem;
+        width: 40.4vw;
+        border: 0.08rem solid #4c7ac7;
+        box-shadow: 0 0 3px;
+    }
+
+    .poland {
+        padding-top: 17.4rem;
+        border: 0.08rem solid #4c7ac7;
+        box-shadow: 0 0 3px;
+        width: 40.4vw;
+    }
+
+    .share {
+        order: 0.08rem solid #4c7ac7;
+        box-shadow: 0 0 3px;
+        width: 44.6vw;
+    }
+
+    #Explore {
+        top: -1.3rem;
+        margin-left: 6.5rem;
+    }
+
+    #amaze {
+        top: -1.9rem;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .final {
+        background-color: #81bdd3;
+        border-start-start-radius: 166%;
+        border-start-end-radius: 115%;
+        border-end-start-radius: 99%;
+        width: 77.6vw;
+    }
+
+    .inform h2 {
+        text-align: center;
+    }
+
+    .inform p {
+        text-align: center;
+    }
+
+    .contact input {
+        width: 12.5rem;
+        height: 2.5rem;
+        margin-left: 3rem;
+        border: 0.18 solid black;
+    }
+
+    .text {
+        margin-left: 3rem;
+    }
+
+    .user {
+        margin-left: 12.8rem;
+    }
+
+    .users {
+        margin-left: 15.2rem;
+    }
+
+    .inform textarea {
+        width: 24.8rem;
+        height: 3.5rem;
+        margin-left: 3.2rem;
+        border: 0.18 solid black;
+    }
+        footer {
+            text-align: center;
+            font-size: 0.8rem;
+            padding: 2rem 0;
+            width: 77.3vw;
+        }
 }
