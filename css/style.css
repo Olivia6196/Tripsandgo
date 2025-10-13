@@ -735,11 +735,9 @@ footer{
 
 
 @media (max-width:450px) {
-    *{
-        overflow: hidden;
-    }
+    
     .background {
-        width: 91.5vw;
+        width: 100%;
         height: 40vh;
     }
         .background h1 {
@@ -753,10 +751,14 @@ footer{
             flex-wrap: nowrap;
             align-items: flex-end;
             padding-bottom: 1.5rem;
+            position: sticky;
+            top: 0;
+            left: 25rem;
+            z-index: 9;
         }
     
         .first {
-            width: 91vw;
+            width: 100%;
             border-bottom-right-radius: 40%;
         }
          .travel{
@@ -798,12 +800,12 @@ footer{
          }
         .aboutus {
             margin-top: 1.5rem;
-            margin-left: 2rem;
+            margin-left: 3rem;
         }
     
         .about img {
             width: 72vw;
-            padding-left: 4.5rem;
+            padding-left: 6.5rem;
             padding-top: 1.5rem;
         }
     
@@ -825,10 +827,11 @@ footer{
             text-align: center;
             font-size: 1.5rem;
             color: #0a50c9;
+            margin-left: 12rem;
         }
          .three p{
             width: 72vw;
-            padding-left: 1.8rem;
+            padding-left: 2.8rem;
          }
         .service {
             flex-direction: column;
@@ -998,17 +1001,17 @@ footer{
             width: 92.3vw;}
                         
                             .bxl-instagram {
-                                right: 6rem;
+                                right: 2rem;
                                 top: 10rem;
                             }
             
                             .bxl-facebook {
-                                right: 6rem;
+                                right: 2rem;
                                 top: 7rem;
                             }
             
                             .bxl-pinterest {
-                                right: 6rem;
+                                right: 2rem;
                                 top: 4rem;
                             }
                         
