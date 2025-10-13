@@ -61,14 +61,7 @@
     text-shadow: 0 0 20px #0a50c9;
 }
 
-@media (max-width:768px) {
-    .background{
-        width: 110%;
-    }
-    .background h1{
-        font-size: 6rem;
-    }
-}
+
 @media (max-width:400px) {
     .background{
         width: 223%;
@@ -115,6 +108,7 @@
     padding-bottom: 5.5rem;
     padding-top: 5rem;
 }
+
 .travel .visa{
     padding-top: 19rem;
     text-align: center;
@@ -151,7 +145,51 @@
     background-color: #8a8cd6;
     border: 0.08rem solid #8a8cd6;
 }
+@media (max-width:768px) {
+    .background {
+        width: 72.3%;
+        height: 50vh;
+    }
 
+    .background h1 {
+        font-size: 3.7rem;
+        padding-top: 8.5rem;
+    }
+
+    .navigation ol {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        box-shadow: none;
+        align-items: center;
+        border-bottom: none;
+    }
+     .first{
+        width: 73vw;
+        border-bottom-right-radius: 60%;
+     }
+    .travel h2 {
+        font-size: 1.8rem;
+        position: absolute;
+        left: 13rem;
+        top: 9.5rem;
+    }
+    .travel img{
+        margin-left: 1rem;
+    }
+    .travel p{
+        font-size: 0.9rem;
+        width: 32vw;
+            margin-left: -3rem;
+            line-height: 2;
+            font-weight: 100;
+            margin-bottom: 1.5rem;
+            margin-top: -7rem;
+    }
+    .click{
+        margin-left:-5.2rem;;
+    }
+}
 .about{
     display: flex;
     justify-content: center;
@@ -176,7 +214,15 @@
     text-transform: uppercase;
     color: black;
 }
-
+@media (max-width:768px) {
+    .about{
+        flex-direction: column;
+        padding-top: 0.2rem;
+    }
+    .aboutus{
+        margin-top: 1.5rem;
+    }
+}
 
 
 .three{
@@ -503,13 +549,22 @@
 
 @media (max-width:768px) {
     .bxl-instagram{
-        right: 18rem;
+        right: 34.5rem;
+        font-size: 1.7rem;
+        top: 12.5rem;
+        position: fixed;
     }
     .bxl-facebook{
-        right: 18rem;
+        right: 34.5rem;
+        font-size: 1.7rem;
+        top: 9rem;
+        position: fixed;
     }
     .bxl-pinterest{
-        right: 18rem;
+        right: 34.5rem;
+        font-size: 1.7rem;
+        top: 6rem;
+        position: fixed;
     }
 }
 
