@@ -3,13 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
     <title>Home | Tripsandgo</title>
 </head>
 <body>
-    
+    <header>
+    <div class="top">
+        <div><span>WIX</span> | This website was built on Wix. Create yours today.</div>
+        <div><a href="">Get Started</a></div>
+    </div>
+    <div class="background">
+        <h1>Tripsandgo</h1>
+    </div>
+    <nav class="navigation">
+        <ol>
+            <li><a href="#trips">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#Blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ol>
+    </nav>
+    </header>
+    <section class="first"  id="trips">
+        <div class="travel">
+        <div><img src="./images/yellow Bag2.png" alt="A man with a tavelling bag" title="Excited to travel"></div>
+        <div class="visa">
+        <h2>TRAVELING SERVICES</h2>
+        <p>Are you on the journey to abroad but having hard time getting visa verified or trip booked?<br>We offer various traveling services such as visa application processing, flight & hotel booking, tour booking, travel
+        booking and relocation services!</p>
+        <a href="" class="click">Book Now!</a>
+        </div>
+        </div>
+    </section>
+    <section class="second" id="about">
+        <div class="about">
+            <div class="aboutus">
+                <h2>About</h2>
+                <p>We are a team of 3 people, who manage daily visa application and travel service processes. We've been doing it more than 5 years and have gathered tons of experiences. <br>We are located in Estonia, UK and Nigeria!</p>
+                <a href="" class="click">Read More!</a>
+            </div>
+            <div><img src="./images/yellow laptop.png" alt="About us Image" title="Booking a flight"></div>
+        </div>
+    </section>
+    <section class="three" id="services">
+        <h2>SERVICES</h2>
+        <p>We offer multiple traveling related services, what may be<br> needed to have successful traveling experience or relocation <br> process!</p>
+        <div class="service">
+            <div>
+                <h2>01</h2>
+                <h3>Visa processing</h3>
+                <p>We offer consultation and visa processing service for Schengen, US and Canada visas.</p>
+            </div>
+            <div>
+                <h2><span>02</span></h2>
+                <h3>Relocation</h3>
+                <p>We offer relocation service whether it is needed to relocate for work or education.</p>
+            </div>
+            <div>
+                <h2>03</h2>
+                <h3>Travel booking</h3>
+                <p>We offer complete travel package service, where we plan entire trip from 1 to 100.
+</p>
+            </div>
+        </div>
+    </section>
+    <section class="fourth" id="reviews">
+        <h2>REVIEWS</h2>
+        <div class="reviews">
+            <div><i class='bx bx-chevron-left'></i></div>
+            <div class="review-slide">
+                <div class="review">
+                <p class="customer-name">Ejiroghene, UK</p>
+                <p class="customer-review">"I have processed over 5 visas with Tripsandgo but with the recent one, I almost got fully rejected but Tripsandgo made
+                the embassy at least give me a short term visa. Without them, my latest European trip would not have happened"</p>
+                </div>
+                <div class="review">
+                  <p class="customer-name">Kiki, Estonia</p>
+                  <p class="customer-review">"I wanted to get a visa and plane tickets to Canada and United States in 2 weeks. Tripsandgo made it happen. I got plane
+                tickets in 3 days and visas all approved in 1 day. Entire trip was a pleasure and fully organised from day one without any hussle, even though it was needed to purchase tickets from different locations and one-way"</p>  
+                </div>
+                <div class="review">
+                    <p class="customer-name">DD, UK</p>
+                    <p class="customer-review">"At first we used TripsandGo services in February and were not so sure how well entire process goes but now in september
+                    we are applying for another visa with their help. Entire process runs as smoothly as it did the first time"</p>
+                </div>
+            </div>
+            <div><i class='bx bx-chevron-right'></i></div>
+        </div>
+        <div class="dots">
+            <button class="active-dot" onclick="showReview(0)">&#9679</button>
+            <button class="dot" onclick="showReview(1)">&#9679</button>
+            <button class="dot" onclick="showReview(2)">&#9679</button>
+        </div>
+    </section>
+    <section class="fifth" id="Blog">
+        <h2>LATEST POSTS</h2>
+        <div class="post">
+            <div class="share">
+                <img src="./images/Lastest1.jpg" alt="LATEST">
+                <br>
+                <p class="memories">We ease your travel worries while you focus on  making <br>memories.Our mission is to understand your unique <br>preferences and craft tailor-made journeys just for you.</p>
+                <a href="">Like,Comment & share...</a>
+            </div>
+            <div class="image-wrap">
+                <img src="./images/latest21.jpg" alt="LATEST" class="main-image">
+                <img src="./images/latest22.jpg" alt="LATEST" class="hover-image">
+                <p class="mission">🌍✈ Ready to embark on your next adventure? At Tripsandgo, we're all about transforming your travel dreams into unforgettable experiences!. </p>
+                <a href="" id="Explore">✨Explore with us!</a>
+            </div>
+            <div class="image-wrap">
+                <img src="./images/latest31.jpg" alt="LATEST" class="main-image">
+                <img src="./images/latest32.jpg" alt="LATEST" class="hover-image">
+                <br>
+                <p class="poland">A trip to one of Poland biggest cities with extensive connections to different parts of Europe. lets simplify your travel planning and create memories that last a life time.</p>
+                <a href="" id="amaze">Its Amazing!</a>
+            </div>
+        </div>
+    </section>
+    <section class="final" id="contact">
+        <div class="contact">
+        <div><img src="./images/couples traveling2.png" alt="couples traveling"></div>
+        <div class="inform">
+        <h2>CONTACT</h2>
+        <p>Tallinn, Estonia <br>London, United Kingdom <br>Email: tripsandgo@outlook.com <br>Phone / WhatsApp: +372 5781 8489</p>
+        <form action="mailto:tripsandgo@outlook.com" method="post">
+            <label for="first name">First Name</label>
+            <label for="last name" class="user">Last Name</label> 
+            <br><br>
+            <input type="text" id="first name" name="first name" title="please fill out this field" required>
+            <input type="text" id="last name" name="last name" title="please fill out this field" required>
+            <br><br>
+            <label for="email">Email</label>
+            <label for="subjet" class="users">Subject</label>
+            <br><br>
+            <input type="email" id="email" name="email" title="please fill out this field" required>
+            <input type="text" id="subjet" name="subjet" title="please fill out this field" required>
+            <br><br>
+            <label for="message">Leave us a message...</label>
+            <br><br>
+            <textarea name="message" id="message" title="please fill out this field" required></textarea>
+            <br><br>
+            <button>Submit</button>
+        </form>
+        </div>
+        </div>
+    </section>
+    <div><a href="https://www.pinterest.com/tripsandgo/"><i class='bx bxl-pinterest'></i></a></div>
+    <div><a href="https://web.facebook.com/tripsandgo"><i class='bx bxl-facebook'></i></a></div>
+    <div><a href="https://www.instagram.com/thetripsandgo/#"><i class='bx bxl-instagram'></i></a></div>
+    <footer>
+        <p>© 2024 Tripsandgo | Reg. No 16854402 Estonia</p>
+    </footer>
 </body>
 </html>
