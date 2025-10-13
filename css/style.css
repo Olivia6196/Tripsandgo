@@ -62,12 +62,6 @@
 }
 
 
-@media (max-width:400px) {
-    .background{
-        width: 223%;
-    }
-}
-
 .navigation ol{
     display: flex;
     list-style-type: none;
@@ -504,22 +498,7 @@
     }
 }
 
-@media (max-width:400px) {
-    .bxl-instagram {
-            right: 35rem;
-            top:10rem;
-    }
-    
-        .bxl-facebook {
-            right: 35rem;
-            top: 7rem;
-        }
-    
-        .bxl-pinterest {
-            right: 35rem;
-            top: 4rem;
-        }
-}
+
 footer{
     text-align: center;
     font-size: 0.9rem;
@@ -752,4 +731,285 @@ footer{
             padding: 2rem 0;
             width: 77.3vw;
         }
+}
+
+
+@media (max-width:450px) {
+    *{
+        overflow: hidden;
+    }
+    .background {
+        width: 91.5vw;
+        height: 40vh;
+    }
+        .background h1 {
+            font-size: 2.8rem;
+            padding-top: 6.5rem;
+        }
+    
+        .navigation ol {
+            flex-direction: column;
+            box-shadow: none;
+            flex-wrap: nowrap;
+            align-items: flex-end;
+            padding-bottom: 1.5rem;
+        }
+    
+        .first {
+            width: 91vw;
+            border-bottom-right-radius: 40%;
+        }
+         .travel{
+            flex-direction: column;
+            margin-top: -8rem;
+         }
+        .travel h2 {
+            font-size: 1.8rem;
+            position: absolute;
+            left: 13rem;
+            top: 10.5rem;
+        }
+    
+        .travel img {
+            margin-left: 1rem;
+            width:65vw ;
+            padding-top: -9rem;
+        }
+    
+        .travel p {
+            width: 52vw;
+            margin-left: 5rem;
+            line-height: 2;
+            font-weight: 100;
+            margin-bottom: 1.5rem;
+            margin-top: -22rem;
+        }
+    
+        .click {
+            margin-left: -2.5rem;
+        }
+    
+        .about {
+            flex-direction: column;
+            padding-top: 0.2rem;
+        }
+         .about p{
+            width: 75vw;
+         }
+        .aboutus {
+            margin-top: 1.5rem;
+            margin-left: 2rem;
+        }
+    
+        .about img {
+            width: 72vw;
+            padding-left: 4.5rem;
+            padding-top: 1.5rem;
+        }
+    
+        .three {
+            background: none;
+            box-shadow: none;
+        }
+        .wedo{
+            width: 75vw;
+            background-color: #81bdd3;
+                padding-top: 4rem;
+                padding-bottom: 1.5rem;
+                border-top-right-radius: 45%;
+                border-bottom-left-radius: 45%;
+                box-shadow: 0 0 3px;
+                margin-left: 2rem;
+        }
+        .three h2 {
+            text-align: center;
+            font-size: 1.5rem;
+            color: #0a50c9;
+        }
+         .three p{
+            width: 72vw;
+            padding-left: 1.8rem;
+         }
+        .service {
+            flex-direction: column;
+            gap: 1rem;
+            padding-top: 2rem;
+            margin-bottom: 4rem;
+        }
+        .service h2{
+            color: white;
+            margin-top: -3.5rem;
+        }
+         .service h3{
+            padding-bottom: -3rem;
+         }
+        .service p {
+            margin-left: 1.2rem;
+            width: 52vw;
+
+        }
+    
+        .fourth h2 {
+            font-size: 1.5rem;
+            margin-left: 3rem;
+            margin-bottom: 1rem;
+        }
+    
+        .bx-chevron-left {
+            display: none;
+        }
+    
+        .bx-chevron-right {
+            display: none;
+        }
+    
+        .review {
+            top: -2.5rem;
+            left: -9rem;
+            width: 53vw;
+        }
+    
+        .customer-review {
+            width: 53vw;
+            line-height: 1.8;
+        }
+    
+        .fifth h2 {
+            margin-top: 9rem;
+            padding-top: 14rem;
+            font-size: 1.8rem;
+            margin-left: -1rem;
+        }
+    
+        .post {
+            flex-direction: column-reverse;
+            margin: 3rem;
+        }
+    
+        .post img {
+            width: 58vw;
+            height: 58vw;
+        }
+    
+        .share {
+            border: none;
+            box-shadow: none;
+        }
+    
+        .image-wrap {
+            border: none;
+            box-shadow: none;
+            margin-left: 2.3rem;
+        }
+    
+        .mission {
+            padding-top: 18.5rem;
+            width: 50vw;
+            border: 0.08rem solid #4c7ac7;
+            box-shadow: 0 0 3px;
+        }
+    
+        .poland {
+            padding-top: 17.4rem;
+            border: 0.08rem solid #4c7ac7;
+            box-shadow: 0 0 3px;
+            width: 50vw;
+        }
+    
+        .share {
+            order: 0.08rem solid #4c7ac7;
+            box-shadow: 0 0 3px;
+            width: 57.5vw;
+            position: relative;
+            left: -2rem;
+        }
+    
+        #Explore {
+            top: -1.5rem;
+            margin-left: 4.5rem;
+        }
+        #amaze {
+            top: -1.9rem;
+            margin-left: 5.5rem;
+        }
+        #Like{
+            margin-left: 4rem;
+            position: relative;
+            top: -0.5rem;
+        }
+        .contact {
+            flex-direction: column;
+        }
+    
+        .final {
+            background: none;
+        }
+        .inform{
+            background-color: #81bdd3;
+                width: 91vw;
+                border-top-right-radius: 20%;
+                height: 100vh;
+        }
+        .contact img{
+            width: 65vw;
+            margin-left: 3.5rem;
+        }
+        .inform h2 {
+            text-align: center;
+        }
+    
+        .inform p {
+            text-align: center;
+        }
+    
+        .contact input {
+            width: 8.5rem;
+            height: 2.5rem;
+            margin-left: 1.5rem;
+            border: 0.18 solid black;
+        }
+    
+        .text {
+            margin-left: 1.5rem;
+        }
+    
+        .user {
+            margin-left: 7.2rem;
+        }
+    
+        .users {
+            margin-left: 9.8rem;
+        }
+    
+        .inform textarea {
+            width: 19.8rem;
+            height: 3.5rem;
+            margin-left: 1.5rem;
+            border: 0.18 solid black;
+        }
+           .inform button {
+               margin-top: 2rem;
+               margin-left: 6rem;
+           }
+        footer {
+            text-align: center;
+            font-size: 0.8rem;
+            padding: 2rem 0;
+            width: 92.3vw;}
+                        
+                            .bxl-instagram {
+                                right: 9rem;
+                                top: 10rem;
+                            }
+            
+                            .bxl-facebook {
+                                right: 9rem;
+                                top: 7rem;
+                            }
+            
+                            .bxl-pinterest {
+                                right: 39rem;
+                                top: 4rem;
+                            }
+                        
 }
