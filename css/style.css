@@ -753,7 +753,7 @@ footer{
             padding-bottom: 1.5rem;
             position: sticky;
             top: 0;
-            left: 25rem;
+            left: 20rem;
             z-index: 9;
         }
     
@@ -842,6 +842,7 @@ footer{
         .service h2{
             color: white;
             margin-top: -3.5rem;
+            margin-left: -0.5rem;
         }
          .service h3{
             padding-bottom: -3rem;
@@ -949,7 +950,7 @@ footer{
         }
         .inform{
             background-color: #81bdd3;
-                width: 91vw;
+                width: 100%;
                 border-top-right-radius: 20%;
                 height: 100vh;
         }
@@ -966,7 +967,7 @@ footer{
         }
     
         .contact input {
-            width: 8.5rem;
+            width: 6.5rem;
             height: 2.5rem;
             margin-left: 1.5rem;
             border: 0.18 solid black;
@@ -985,20 +986,20 @@ footer{
         }
     
         .inform textarea {
-            width: 19.8rem;
+            width: 17.8rem;
             height: 3.5rem;
             margin-left: 1.5rem;
             border: 0.18 solid black;
         }
            .inform button {
                margin-top: 2rem;
-               margin-left: 6rem;
+               margin-left: 4.6rem;
            }
         footer {
             text-align: center;
             font-size: 0.8rem;
             padding: 2rem 0;
-            width: 92.3vw;}
+            width: 100%;}
                         
                             .bxl-instagram {
                                 right: 2rem;
