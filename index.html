@@ -13,13 +13,6 @@
 </head>
 <body>
     <header>
-    <div class="top">
-        <div><span>WIX</span> | This website was built on Wix. Create yours today.</div>
-        <div><a href="">Get Started</a></div>
-    </div>
-    <div class="background">
-        <h1>Tripsandgo</h1>
-    </div>
     <nav class="navigation">
         <ol>
             <li><a href="#trips">Home</a></li>
@@ -30,6 +23,9 @@
             <li><a href="#contact">Contact</a></li>
         </ol>
     </nav>
+    <div class="background">
+        <h1>Tripsandgo</h1>
+    </div>
     </header>
     <section class="first"  id="trips">
         <div class="travel">
@@ -130,7 +126,7 @@
         <div class="inform">
         <h2>CONTACT</h2>
         <p>Tallinn, Estonia <br>London, United Kingdom <br>Email: tripsandgo@outlook.com <br>Phone / WhatsApp: +372 5781 8489</p>
-        <form action="mailto:tripsandgo@outlook.com" method="post">
+        <form action="mailto:tripsandgo@outlook.com" method="post" class="input-one">
             <label for="first name" class="text">First Name</label>
             <label for="last name" class="user">Last Name</label> 
             <br><br>
@@ -146,6 +142,19 @@
             <label for="message" class="text">Leave us a message...</label>
             <br><br>
             <textarea name="message" id="message" title="please fill out this field" required></textarea>
+            <br><br>
+            <button>Submit</button>
+        </form>
+        <form action="mailto:tripsandgo@outlook.com" method="post" class="input-two">
+            <input type="text" name="first name" title="please fill out this field" required placeholder="First Name">
+            <br><br>
+            <input type="text" name="last name" title="please fill out this field" required placeholder="Last Name">
+            <br><br>
+            <input type="email"name="email" title="please fill out this field" required placeholder="Email">
+            <br><br>
+            <input type="text" name="subjet" title="please fill out this field" required placeholder="Subject">
+            <br><br>
+            <textarea name="message" title="please fill out this field" required placeholder="Leave us a message..."></textarea>
             <br><br>
             <button>Submit</button>
         </form>
