@@ -126,11 +126,12 @@
     margin-left: -1.8rem;
     border-radius: 4.5rem;
     box-shadow: 0 0 15px;
-    transition: 0.4s;
+    transition: 0.4s ease-in-out;
 }
 .click:hover{
     color: white;
     background-color: #8a8cd6;
+    transform: translateX(-3vw);
     border: 0.08rem solid #8a8cd6;
 }
 
@@ -369,23 +370,27 @@
 
 .contact{
     display: flex;
-    gap: 2rem;
-    padding-bottom: 5rem;
+    gap: 1.5rem;
 }
-.final{
+/* .final{
     background-color: #81bdd3;
-    /* border-top-left-radius: 55% 65%; */
     border-start-start-radius:166% ;
     border-start-end-radius: 115%;
     border-end-start-radius: 99%;
-}
+} */
 .contact img{
     width: 35vw;
     margin-left: 8rem;
     
 }
 .inform{
-    padding-top: 4rem;
+    padding-top: 2rem;
+    margin-top: 3vw;
+    background-color: #81bdd3;
+    padding-left: 3vw;
+    padding-bottom: 5vw;
+    border-radius: 1vw;
+    box-shadow: 0 0 3px;
 }
 .inform h2{
     font-size: 3rem;
@@ -1024,6 +1029,7 @@ footer{
     font-size: 3.5rem;
     padding-bottom: 1.1vw;
     text-shadow: 0 0 5px #0a50c9;
+    letter-spacing: 0.1vw;
 }
 .one h4{
     font-size: 1.2rem;
@@ -1051,6 +1057,7 @@ footer{
     font-size: 3rem;
     font-weight: 550;
     padding-bottom: 1.5vw;
+    letter-spacing: 0.1vw;
     text-shadow: 0 0 5px #0a50c9;
 }
 .choose ol li{
@@ -1065,6 +1072,7 @@ footer{
    font-size: 3rem;
    padding-bottom: 1.8vw;
    padding-top: 7vw;
+   letter-spacing: 0.1vw;
    text-shadow: 0 0 5px #0a50c9;
 }
 .more p{
@@ -1080,6 +1088,7 @@ footer{
     margin-top: 7vw;
     text-align: center;
     line-height: 3;
+    letter-spacing: 0.1vw;
     text-shadow: 0 0 5px #0a50c9;
 }
 .story p{
@@ -1095,6 +1104,7 @@ footer{
     margin-top: 9vw;
     text-align: center;
     font-size: 3rem;
+    letter-spacing: 0.1vw;
     padding-bottom: 1vw;
     text-shadow: 0 0 5px #0a50c9;
 }
@@ -1125,6 +1135,7 @@ footer{
 .client h2{
     text-align: center;
     font-size: 3rem;
+    letter-spacing: 0.1vw;
     padding-bottom: 1vw;
     text-shadow: 0 0 5px #0a50c9;
     margin-top: 4vw;
@@ -1135,4 +1146,174 @@ footer{
     gap: 9vw;
     padding-top: 3vw;
     margin-bottom: 7vw;
+}
+
+
+.write {
+    background-color: #71bfec;
+    width: 25vw;
+    border-top-right-radius: 1.7vw;
+    border-bottom-right-radius:1.7vw ;
+}
+.holiday h2{
+    text-align: center;
+        font-size: 3.5rem;
+        padding-bottom: 3vw;
+        letter-spacing: 0.1vw;
+        text-shadow: 0 0 5px #0a50c9;
+        margin-top: 4vw;
+}
+
+.flex1{
+   display: flex;
+   justify-content: center;
+   border: 0.1rem solid #71bfec;
+   width: 47.84vw;
+   height: 20.7vw;
+   margin-bottom: 3vw;
+   margin-left: 21rem;
+border-radius: 2vw;
+    box-shadow: 0 0 3px;
+}
+.flex2{
+    display: flex;
+        justify-content: center;
+        border: 0.1rem solid #71bfec;
+            width: 47.84vw;
+            height: 20.95vw;
+            margin-bottom: 3vw;
+                margin-left: 21rem;
+                border-radius: 2vw;
+                box-shadow: 0 0 3px;
+}
+.flex3{
+    display: flex;
+        justify-content: center;
+        border: 0.1rem solid #71bfec;
+            width: 47.84vw;
+            height: 20.6vw;
+            margin-bottom: 3vw;
+                margin-left: 21rem;
+                border-radius: 2vw;
+                    box-shadow: 0 0 3px;
+}
+.flex4{
+    display: flex;
+        justify-content: center;
+        border: 0.1rem solid #71bfec;
+            width: 47.84vw;
+            height: 20.9vw;
+            margin-bottom: 3vw;
+                margin-left: 21rem;
+                border-radius: 2vw;
+                    box-shadow: 0 0 3px;
+}
+.flex5{
+    display: flex;
+        justify-content: center;
+        border: 0.1rem solid #71bfec;
+            width: 47.84vw;
+            height: 20.8vw;
+            margin-bottom: 3vw;
+                margin-left: 21rem;
+                border-radius: 2vw;
+                    box-shadow: 0 0 3px;
+}
+.flex6{
+    display: flex;
+        justify-content: center;
+        border: 0.1rem solid #71bfec;
+            width: 47.8vw;
+            height: 20.8vw;
+            margin-bottom: 3vw;
+                margin-left: 21rem;
+                border-radius: 2vw;
+                    box-shadow: 0 0 3px;
+}
+#image4{
+    position: relative;
+    left: 2vw;
+}
+
+.employ{
+    padding: 6vw 0 1.5vw;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.employ2{
+    padding: 6vw 0 1.5vw;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.book-us{
+    text-align: center;
+    padding-bottom: 2vw;
+}
+.button{
+    color:  #71bfec;
+        border: 0.08rem solid ;
+        background-color: #fcfcfdea;
+        padding: 0.8rem 2.5rem;
+        font-size: 0.9rem;
+        margin-left: 6.5vw;
+        border-radius: 4.5rem;
+        transition: 1s ease-in-out;
+}
+.button:hover{
+    background:transparent;
+    color: white;
+    box-shadow: 0 0 12px;
+    transform: translateX(2.5vw);
+}
+
+.grids{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6vw;
+    margin-bottom: 9vw;
+}
+.grids img:hover{
+    transform: scale(0.8);
+}
+.grids img{
+    width: 30vw;
+    height: 26vw;
+}
+.grids p{
+    font-size: 1.6rem;
+    font-weight: 550;
+    width: 28.6vw;
+    padding: 0.2rem 0.5rem 0;
+    background-color: white;
+    box-shadow: 0 0 3px;
+    transition: 1s ease-in-out;
+}
+.grids p:hover{
+    background-color: #71bfec;
+    color: white;
+}
+ .area-name1{
+    position: absolute;
+    border: 0.1rem solid #71bfec;
+    left: -1vw;
+    top: 266vw;
+}
+.area-name2 {
+    position: absolute;
+    border: 0.1rem solid #71bfec;
+    left: 35vw;
+        top: 266vw;
+}
+.area-name3 {
+    position: absolute;
+    border: 0.1rem solid #71bfec;
+    left: -1vw;
+        top: 298.6vw;
+}
+.area-name4 {
+    position: absolute;
+    border: 0.1rem solid #71bfec;
+    left: 35vw;
+        top: 298.6vw;
 }
