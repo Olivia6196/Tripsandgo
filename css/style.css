@@ -100,7 +100,7 @@
 }
 .travel img{
     width: 36vw;
-    margin-left: 3rem;
+    margin-left: 5rem;
     padding-bottom: 5.5rem;
     padding-top: 5rem;
 }
@@ -113,7 +113,7 @@
     color: #fffffff1;
     font-size: 3.7rem;
     position: absolute;
-    left: 24.7rem;
+    left: 28.7rem;
     top: 12.4rem;
 }
 .travel p{
@@ -148,6 +148,7 @@
     padding-top: 2rem;
     margin-bottom: 7.5rem;
     text-align: center;
+    gap: 4vw;
 }
 .aboutus{
     width: 23.5rem;
@@ -165,6 +166,10 @@
     font-size: 3.3rem;
     text-transform: uppercase;
     color: black;
+}
+.about img{
+    width: 40vw;
+    padding-top: 4vw;
 }
 
 .three{
@@ -376,27 +381,27 @@
 .contact{
     display: flex;
     gap: 1.5rem;
+    margin-top: 3vw;
+        background-color: #81bdd3;
+        padding-left: 3vw;
+        border-radius: 1vw;
+        box-shadow: 0 0 3px;
 }
 
 .contact img{
-    width: 35vw;
-    margin-left: 8rem;
+    width: 45vw;
+    margin-left: 3vw;
+    position: relative;
+    bottom: 12vw;
     
 }
-.contact{
-    padding-top: 1.2rem;
-    margin-top: 3vw;
-    background-color: #81bdd3;
-    padding-left: 3vw;
-    padding-bottom: 3.5vw;
-    border-radius: 1vw;
-    box-shadow: 0 0 3px;
-}
+
 .inform h2{
     font-size: 3rem;
     line-height: 1.5;
     text-align: left;
     letter-spacing: 0.08rem;
+    padding-top: 1.2vw;
     color: #fafafa;
 }
 .inform p{
@@ -427,7 +432,7 @@
     display: none;
 }
 .inform button{
-    margin-top: 1.1rem;
+    margin-top: 3vw;
     margin-left: 9rem;
     padding: 0.8rem 5.5rem;
     background-color: #221919;
