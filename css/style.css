@@ -196,6 +196,7 @@
     justify-content: center;
     text-align: center;
     gap: 7rem;
+    flex-wrap: wrap;
     padding-top: 8rem;
     margin-bottom: 9rem;
 }
@@ -291,6 +292,7 @@
     display: flex;
     gap: 1.2rem;
     margin-bottom: 4rem;
+    flex-wrap: wrap;
 }
 .post a{
     color: #4c7ac7;
@@ -342,6 +344,9 @@
     padding-bottom: 1rem;
     padding-left: 0.8rem;
     
+}
+.memories2{
+    display: none;
 }
 .post img{
     width: 28vw;
@@ -401,9 +406,11 @@
     line-height: 1.5;
     text-align: left;
     letter-spacing: 0.08rem;
-    padding-top: 1.2vw;
+    padding-top: 5.5vw;
     color: #fafafa;
 }
+
+
 .inform p{
     line-height: 2;
     font-size: 0.9rem;
@@ -487,19 +494,19 @@
 
 @media (max-width:768px) {
     .bxl-instagram{
-        right: 12.5rem;
+        right: 6.5vw;
         font-size: 1.7rem;
         top: 12.5rem;
         position: fixed;
     }
     .bxl-facebook{
-        right: 12.5rem;
+        right: 6.5vw;
         font-size: 1.7rem;
         top: 9rem;
         position: fixed;
     }
     .bxl-pinterest{
-        right: 12.5rem;
+        right: 6.5vw;
         font-size: 1.7rem;
         top: 6rem;
         position: fixed;
@@ -517,9 +524,13 @@ footer{
 
 
 @media (max-width:768px) {
+    html,body{
+        overflow-x: hidden;
+    }
     .background {
-        width: 77.85vw;
+        width: 100%;
         height: 50vh;
+        margin: 0;
     }
 
     .background h1 {
@@ -529,65 +540,81 @@ footer{
 
     .navigation ol {
         flex-wrap: wrap;
-        gap: 0.9rem;
+        gap: 3.5vw;
         justify-content: center;
-        margin-left: -4rem;
         border: none;
-        width: 86vw;
+        width: 100%;
+        padding-top:  -2.5vw;
+        height: 4vh;
     }
-
+        #team {
+            position: absolute;
+            top: 4vw;
+            left: 29.8vw;
+        }
+    
+        #travel {
+            position: absolute;
+            top: 0.6vw;
+            left: 37.5vw;
+        }
+    
+        #business {
+            position: absolute;
+            top: 4vw;
+            left: 38.8vw;
+        }
     .first {
-        width: 77.7vw;
-        border-bottom-right-radius: 60%;
+        width: 100%;
+        margin-bottom: -12vw;
     }
 
     .travel h2 {
         font-size: 1.8rem;
         position: absolute;
-        left: 13rem;
-        top: 9.5rem;
+        left: 40vw;
+        top: 17.5vw;
     }
 
     .travel img {
-        margin-left: 1rem;
+        margin-left: 6vw;
     }
 
     .travel p {
         font-size: 0.9rem;
-        width: 32vw;
-        margin-left: -3rem;
+        width: 45vw;
         line-height: 2;
         font-weight: 100;
-        margin-bottom: 1.5rem;
+        margin-bottom:6.5vw;
         margin-top: -7rem;
     }
 
     .click {
-        margin-left: -5.2rem;
-        ;
+        margin-left: -2.2rem;
     }
 
     .about {
         flex-direction: column;
-        padding-top: 0.2rem;
+        padding-top: 12vw;
+        align-items: center;
     }
-
+    .about p{
+        width: 60vw;
+        margin-left: -9vw;
+    }
     .aboutus {
         margin-top: 1.5rem;
     }
 
     .about img {
-        width: 48vw;
-        margin-left: -12rem;
-        padding-top: 1rem;
+        width: 52vw;
+        padding-top: 3vw;
     }
 
     .three {
-        width: 77vw;
+        width: 100%;
         padding-top: 4rem;
         padding-bottom: 1.5rem;
-        border-top-right-radius: 35%;
-        border-bottom-left-radius: 35%;
     }
 
     .three h2 {
@@ -596,20 +623,16 @@ footer{
     }
 
     .service {
-        flex-direction: column;
+        justify-content: flex-start;
         gap: 0.9rem;
-        padding-top: 2rem;
-        margin-bottom: 4rem;
-    }
-
-    .service p {
-        margin-left: 11rem;
+        padding-top: 5vw;
+        padding-left:6vw ;
+        margin-bottom: 6vw;
     }
 
     .fourth h2 {
         font-size: 1.5rem;
-        margin-left: -7rem;
-        margin-bottom: 1rem;
+        margin-bottom: 4vw;
     }
 
     .bx-chevron-left {
@@ -622,7 +645,7 @@ footer{
 
     .review {
         top: -0.5rem;
-        left: -20rem;
+        left: -29vw;
         width: 54vw;
     }
 
@@ -632,20 +655,21 @@ footer{
     }
 
     .fifth h2 {
-        margin-top: 4rem;
-        padding-top: 14rem;
+        margin-top: 7vw;
+        padding-top: 30vw;
         font-size: 1.8rem;
-        margin-left: -9rem;
     }
 
     .post {
-        flex-direction: column-reverse;
-        margin: 5rem;
+        justify-content: flex-start;
+        gap: 4.5vw;
     }
 
     .post img {
-        width: 45vw;
+        width: 40vw;
         height: 35vw;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
     }
 
     .share {
@@ -656,27 +680,39 @@ footer{
     .image-wrap {
         border: none;
         box-shadow: none;
-        margin-left: 4.3rem;
+        border-radius: 1rem;
     }
-
+    .memories{
+        display: none;
+    }
+    .memories2{
+        display: inline;
+            line-height: 2;
+            font-size: 0.9rem;
+            padding: 1.2vw;
+    }
     .mission {
         padding-top: 18.5rem;
-        width: 40.4vw;
+        width: 35.4vw;
         border: 0.08rem solid #4c7ac7;
         box-shadow: 0 0 3px;
+        border-radius: 3vw;
     }
 
     .poland {
         padding-top: 17.4rem;
         border: 0.08rem solid #4c7ac7;
         box-shadow: 0 0 3px;
-        width: 40.4vw;
+        width: 35.4vw;
+        border-radius: 3vw;
     }
 
     .share {
-        order: 0.08rem solid #4c7ac7;
+        border: 0.08rem solid #4c7ac7;
         box-shadow: 0 0 3px;
-        width: 44.6vw;
+        width: 39.8vw;
+        margin-bottom: 2vw;
+        border-radius: 3vw;
     }
 
     #Explore {
@@ -687,25 +723,27 @@ footer{
     #amaze {
         top: -1.9rem;
     }
-
-    .contact {
-        flex-direction: column;
+    #last-pic{
+        margin-left: 32vw;
     }
-
+    .contact img{
+        display: none;
+    }
+    
     .final {
         background-color: #81bdd3;
-        border-start-start-radius: 166%;
-        border-start-end-radius: 115%;
-        border-end-start-radius: 99%;
-        width: 77.6vw;
+        width: 100%;
     }
-
+    .inform{
+         margin-left: 8vw;
+    }
     .inform h2 {
         text-align: center;
     }
 
     .inform p {
         text-align: center;
+        font-size: 1.2rem;
     }
 
     .contact input {
@@ -733,89 +771,122 @@ footer{
         margin-left: 3.2rem;
         border: 0.18 solid black;
     }
+    .inform button{
+        margin-bottom: 5vw;
+    }
         footer {
             text-align: center;
-            font-size: 0.8rem;
+            font-size: 1rem;
             padding: 2rem 0;
-            width: 77.3vw;
+            width: 100%;
         }
 }
 
 
 @media (max-width:450px) {
-    
+    html,body{
+        overflow-x: hidden;
+    }
     .background {
         width: 100%;
-        height: 40vh;
+        height: 35vh;
     }
         .background h1 {
             font-size: 2.8rem;
-            padding-top: 6.5rem;
+            padding-top:-10vw;
         }
     
         .navigation ol {
-            box-shadow: none;
+            box-shadow: 0 0 3px;
             flex-wrap: nowrap;
             align-items: flex-end;
             padding-bottom: 1.5rem;
             margin-top: 0;
-            padding-left: 1.8rem;
+            padding-left: 2vw;
             position: fixed;
             top: 0;
             width: 100%;
             z-index: 9;
+            height: 3vh;
         }
+                #team {
+                    position: absolute;
+                    top: 2vw;
+                    left: 21.5vw;
+                }#travel {
+                    position: absolute;
+                    top: 0.6vw;
+                    left: 33.5vw;
+                }
+                
+                #business {
+                    position: absolute;
+                    top: 9vw;
+                    left: 34.8vw;
+                }
+
     
         .first {
+            background: none;
+        }
+        .visa{
+            background: linear-gradient(to bottom, #75b7cf, #a7d9f0);
             width: 100%;
-            border-bottom-right-radius: 40%;
+            padding-bottom: 12vw;
         }
          .travel{
-            flex-direction: column;
+            flex-direction: column-reverse;
             margin-top: 4rem;
          }
         .travel h2 {
             font-size: 1.8rem;
-            position: absolute;
-            left: 13rem;
-            top: 10.5rem;
+            position: relative;
+            color: #ffffff;
+            top: -58vw;
+            left: 1vw;
         }
     
         .travel img {
-            margin-left: 1rem;
+            margin-left: 20vw;
             width:65vw ;
-            padding-top: -9rem;
+            margin-top: -25vw;
+            margin-bottom: -20vw;
         }
     
         .travel p {
-            width: 52vw;
-            margin-left: 5rem;
+            width: 82vw;
+            margin-left: 9vw;
+            font-size: 1.1rem;
             line-height: 2;
             font-weight: 100;
             margin-bottom: 1.5rem;
-            margin-top: -22rem;
+            margin-top: -52vw;
         }
     
         .click {
-            margin-left: -2.5rem;
+            margin-left: -1vw;
         }
     
         .about {
             flex-direction: column;
             padding-top: 0.2rem;
         }
+        .about h2{
+            margin-left: -22vw;
+        }
          .about p{
-            width: 75vw;
+            width: 85vw;
+            margin-left: -14vw;
          }
         .aboutus {
             margin-top: 1.5rem;
-            margin-left: 3rem;
         }
-    
+        #read{
+            margin-left: -22vw;
+        }
         .about img {
-            width: 72vw;
-            padding-left: 6.5rem;
-            padding-top: 1.5rem;
+            width: 80vw;
+            padding-top: 3.5vw;
         }
     
         .three {
@@ -836,11 +907,12 @@ footer{
             text-align: center;
             font-size: 1.5rem;
             color: #0a50c9;
-            margin-left: 7rem;
+            margin-top: -25vw;
         }
          .three p{
-            width: 72vw;
-            padding-left: 2.8rem;
+            width: 75vw;
+            padding-left: 12vw;
+            font-size: 1.1rem;
          }
         .service {
             flex-direction: column;
@@ -866,6 +938,7 @@ footer{
             font-size: 1.5rem;
             margin-left: 3rem;
             margin-bottom: 1rem;
+            margin-top: -9vw;
         }
     
         .bx-chevron-left {
@@ -878,12 +951,12 @@ footer{
     
         .review {
             top: -2.5rem;
-            left: -9rem;
-            width: 53vw;
+            left: -37vw;
+            width: 65vw;
         }
     
         .customer-review {
-            width: 53vw;
+            width: 62vw;
             line-height: 1.8;
         }
     
@@ -896,14 +969,18 @@ footer{
     
         .post {
             flex-direction: column-reverse;
-            margin: 3rem;
+            flex-wrap: nowrap;
         }
     
         .post img {
-            width: 58vw;
+            width: 84vw;
             height: 45vw;
+            border-top-left-radius:3vw ;
+            border-top-right-radius: 3vw;
         }
-    
+        #last-pic{
+            margin-left: 9vw;
+        }
         .share {
             border: none;
             box-shadow: none;
@@ -917,24 +994,27 @@ footer{
     
         .mission {
             padding-top: 14.5rem;
-            width: 50vw;
+            width: 76vw;
             border: 0.08rem solid #4c7ac7;
             box-shadow: 0 0 3px;
+            border-radius: 3vw ;
         }
     
         .poland {
             padding-top: 13.4rem;
             border: 0.08rem solid #4c7ac7;
             box-shadow: 0 0 3px;
-            width: 50vw;
+            width: 76vw;
+            border-radius: 3vw;
         }
     
         .share {
-            order: 0.08rem solid #4c7ac7;
+            border: 0.08rem solid #4c7ac7;
             box-shadow: 0 0 3px;
-            width: 57.5vw;
+            width: 84vw;
             position: relative;
             left: -2rem;
+            border-radius: 3vw;
         }
     
         #Explore {
@@ -960,12 +1040,11 @@ footer{
         .inform{
             background-color: #81bdd3;
                 width: 100%;
-                border-top-right-radius: 20%;
                 height: 100vh;
+                margin-left: -1vw;
         }
         .contact img{
-            width: 65vw;
-            margin-left: 3.5rem;
+            display: none;
         }
         .inform h2 {
             text-align: center;
@@ -982,28 +1061,28 @@ footer{
             display: block;
         }
         .contact .input-two input::placeholder{
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             padding-left: 0.8rem;
         }
         .contact .input-two input{
-            width: 70%;
+            width: 78%;
             border: 0.08rem solid #fdfcfc;
         }
         .contact .input-two textarea{
-            width: 70%;
+            width: 78%;
             border: 0.08rem solid #fdfcfc;
         }
         .contact .input-two textarea::placeholder{
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             padding-left: 0.8rem;
         }
            .inform button {
                margin-top: 2rem;
-               margin-left: 4.6rem;
+               margin-left: 22.6vw;
            }
         footer {
             text-align: center;
-            font-size: 0.8rem;
+            font-size: 1rem;
             padding: 2rem 0;
             width: 100%;}
                         
