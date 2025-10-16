@@ -1239,6 +1239,7 @@ footer{
 .clients{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 9vw;
     padding-top: 3vw;
     margin-bottom: 7vw;
