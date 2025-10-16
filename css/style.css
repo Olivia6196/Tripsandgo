@@ -981,6 +981,12 @@ footer{
         #last-pic{
             margin-left: 9vw;
         }
+        .memories{
+            display: none;
+        }
+        .memories2{
+            display: inline;
+        }
         .share {
             border: none;
             box-shadow: none;
@@ -1012,6 +1018,7 @@ footer{
             border: 0.08rem solid #4c7ac7;
             box-shadow: 0 0 3px;
             width: 84vw;
+            padding-bottom: 6vw;
             position: relative;
             left: -2rem;
             border-radius: 3vw;
@@ -1028,7 +1035,7 @@ footer{
         #Like{
             margin-left: 4rem;
             position: relative;
-            top: -0.5rem;
+            top: 3vw;
         }
         .contact {
             flex-direction: column;
@@ -1103,6 +1110,10 @@ footer{
                         
 }
 
+
+@media (max-width:375px) {
+    
+}
 
 
 .one{
