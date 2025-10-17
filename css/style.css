@@ -522,600 +522,6 @@ footer{
     background-color: #eaeaea;
 }
 
-
-@media (max-width:768px) {
-    html,body{
-        overflow-x: hidden;
-    }
-    .background {
-        width: 100%;
-        height: 50vh;
-        margin: 0;
-    }
-
-    .background h1 {
-        font-size: 3.7rem;
-        padding-top: 8.5rem;
-    }
-
-    .navigation ol {
-        flex-wrap: wrap;
-        gap: 3.5vw;
-        justify-content: center;
-        border: none;
-        width: 100%;
-        padding-top:  -2.5vw;
-        height: 4vh;
-    }
-        #team {
-            position: absolute;
-            top: 4vw;
-            left: 29.8vw;
-        }
-    
-        #travel {
-            position: absolute;
-            top: 0.6vw;
-            left: 37.5vw;
-        }
-    
-        #business {
-            position: absolute;
-            top: 4vw;
-            left: 38.8vw;
-        }
-    .first {
-        width: 100%;
-        margin-bottom: -12vw;
-    }
-
-    .travel h2 {
-        font-size: 1.8rem;
-        position: absolute;
-        left: 40vw;
-        top: 17.5vw;
-    }
-
-    .travel img {
-        margin-left: 6vw;
-    }
-
-    .travel p {
-        font-size: 0.9rem;
-        width: 45vw;
-        line-height: 2;
-        font-weight: 100;
-        margin-bottom:6.5vw;
-        margin-top: -7rem;
-    }
-
-    .click {
-        margin-left: -2.2rem;
-    }
-
-    .about {
-        flex-direction: column;
-        padding-top: 12vw;
-        align-items: center;
-    }
-    .about p{
-        width: 60vw;
-        margin-left: -9vw;
-    }
-    .aboutus {
-        margin-top: 1.5rem;
-    }
-
-    .about img {
-        width: 52vw;
-        padding-top: 3vw;
-    }
-
-    .three {
-        width: 100%;
-        padding-top: 4rem;
-        padding-bottom: 1.5rem;
-    }
-
-    .three h2 {
-        text-align: center;
-        font-size: 1.5rem;
-    }
-
-    .service {
-        justify-content: flex-start;
-        gap: 0.9rem;
-        padding-top: 5vw;
-        padding-left:6vw ;
-        margin-bottom: 6vw;
-    }
-
-    .fourth h2 {
-        font-size: 1.5rem;
-        margin-bottom: 4vw;
-    }
-
-    .bx-chevron-left {
-        display: none;
-    }
-
-    .bx-chevron-right {
-        display: none;
-    }
-
-    .review {
-        top: -0.5rem;
-        left: -29vw;
-        width: 54vw;
-    }
-
-    .customer-review {
-        width: 54vw;
-        line-height: 1.8;
-    }
-
-    .fifth h2 {
-        margin-top: 7vw;
-        padding-top: 30vw;
-        font-size: 1.8rem;
-    }
-
-    .post {
-        justify-content: flex-start;
-        gap: 4.5vw;
-    }
-
-    .post img {
-        width: 40vw;
-        height: 35vw;
-        border-top-left-radius: 3vw;
-        border-top-right-radius: 3vw;
-    }
-
-    .share {
-        border: none;
-        box-shadow: none;
-    }
-
-    .image-wrap {
-        border: none;
-        box-shadow: none;
-        border-radius: 1rem;
-    }
-    .memories{
-        display: none;
-    }
-    .memories2{
-        display: inline;
-            line-height: 2;
-            font-size: 0.9rem;
-            padding: 1.2vw;
-    }
-    .mission {
-        padding-top: 18.5rem;
-        width: 35.4vw;
-        border: 0.08rem solid #4c7ac7;
-        box-shadow: 0 0 3px;
-        border-radius: 3vw;
-    }
-
-    .poland {
-        padding-top: 17.4rem;
-        border: 0.08rem solid #4c7ac7;
-        box-shadow: 0 0 3px;
-        width: 35.4vw;
-        border-radius: 3vw;
-    }
-
-    .share {
-        border: 0.08rem solid #4c7ac7;
-        box-shadow: 0 0 3px;
-        width: 39.8vw;
-        margin-bottom: 2vw;
-        border-radius: 3vw;
-    }
-
-    #Explore {
-        top: -1.3rem;
-        margin-left: 6.5rem;
-    }
-
-    #amaze {
-        top: -1.9rem;
-    }
-    #last-pic{
-        margin-left: 32vw;
-    }
-    .contact img{
-        display: none;
-    }
-    
-    .final {
-        background-color: #81bdd3;
-        width: 100%;
-    }
-    .inform{
-         margin-left: 8vw;
-    }
-    .inform h2 {
-        text-align: center;
-    }
-
-    .inform p {
-        text-align: center;
-        font-size: 1.2rem;
-    }
-
-    .contact input {
-        width: 12.5rem;
-        height: 2.5rem;
-        margin-left: 3rem;
-        border: 0.18 solid black;
-    }
-
-    .text {
-        margin-left: 3rem;
-    }
-
-    .user {
-        margin-left: 12.8rem;
-    }
-
-    .users {
-        margin-left: 15.2rem;
-    }
-
-    .inform textarea {
-        width: 24.8rem;
-        height: 3.5rem;
-        margin-left: 3.2rem;
-        border: 0.18 solid black;
-    }
-    .inform button{
-        margin-bottom: 5vw;
-    }
-        footer {
-            text-align: center;
-            font-size: 1rem;
-            padding: 2rem 0;
-            width: 100%;
-        }
-}
-
-
-@media (max-width:450px) {
-    html,body{
-        overflow-x: hidden;
-    }
-    .background {
-        width: 100%;
-        height: 35vh;
-    }
-        .background h1 {
-            font-size: 2.8rem;
-            padding-top:-10vw;
-        }
-    
-        .navigation ol {
-            box-shadow: 0 0 3px;
-            flex-wrap: nowrap;
-            align-items: flex-end;
-            padding-bottom: 1.5rem;
-            margin-top: 0;
-            padding-left: 2vw;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 9;
-            height: 3vh;
-        }
-                #team {
-                    position: absolute;
-                    top: 2vw;
-                    left: 21.5vw;
-                }#travel {
-                    position: absolute;
-                    top: 0.6vw;
-                    left: 33.5vw;
-                }
-                
-                #business {
-                    position: absolute;
-                    top: 9vw;
-                    left: 34.8vw;
-                }
-
-    
-        .first {
-            background: none;
-        }
-        .visa{
-            background: linear-gradient(to bottom, #75b7cf, #a7d9f0);
-            width: 100%;
-            padding-bottom: 12vw;
-        }
-         .travel{
-            flex-direction: column-reverse;
-            margin-top: 4rem;
-         }
-        .travel h2 {
-            font-size: 1.8rem;
-            position: relative;
-            color: #ffffff;
-            top: -58vw;
-            left: 1vw;
-        }
-    
-        .travel img {
-            margin-left: 20vw;
-            width:65vw ;
-            margin-top: -25vw;
-            margin-bottom: -20vw;
-        }
-    
-        .travel p {
-            width: 82vw;
-            margin-left: 9vw;
-            font-size: 1.1rem;
-            line-height: 2;
-            font-weight: 100;
-            margin-bottom: 1.5rem;
-            margin-top: -52vw;
-        }
-    
-        .click {
-            margin-left: -1vw;
-        }
-    
-        .about {
-            flex-direction: column;
-            padding-top: 0.2rem;
-        }
-        .about h2{
-            margin-left: -22vw;
-        }
-         .about p{
-            width: 85vw;
-            margin-left: -14vw;
-         }
-        .aboutus {
-            margin-top: 1.5rem;
-        }
-        #read{
-            margin-left: -22vw;
-        }
-        .about img {
-            width: 80vw;
-            padding-top: 3.5vw;
-        }
-    
-        .three {
-            background: none;
-            box-shadow: none;
-        }
-        .wedo{
-            width: 75vw;
-            background-color: #81bdd3;
-                padding-top: 4rem;
-                padding-bottom: 1.5rem;
-                border-top-right-radius: 45%;
-                border-bottom-left-radius: 45%;
-                box-shadow: 0 0 3px;
-                margin-left: 2rem;
-        }
-        .three h2 {
-            text-align: center;
-            font-size: 1.5rem;
-            color: #0a50c9;
-            margin-top: -25vw;
-        }
-         .three p{
-            width: 75vw;
-            padding-left: 12vw;
-            font-size: 1.1rem;
-         }
-        .service {
-            flex-direction: column;
-            gap: 1rem;
-            padding-top: 2rem;
-            margin-bottom: 4rem;
-        }
-        .service h2{
-            color: white;
-            margin-top: -3.5rem;
-            margin-left: -0.5rem;
-        }
-         .service h3{
-            padding-bottom: -3rem;
-         }
-        .service p {
-            margin-left: 1.2rem;
-            width: 52vw;
-
-        }
-    
-        .fourth h2 {
-            font-size: 1.5rem;
-            margin-left: 3rem;
-            margin-bottom: 1rem;
-            margin-top: -9vw;
-        }
-    
-        .bx-chevron-left {
-            display: none;
-        }
-    
-        .bx-chevron-right {
-            display: none;
-        }
-    
-        .review {
-            top: -2.5rem;
-            left: -37vw;
-            width: 65vw;
-        }
-    
-        .customer-review {
-            width: 62vw;
-            line-height: 1.8;
-        }
-    
-        .fifth h2 {
-            margin-top: 9rem;
-            padding-top: 14rem;
-            font-size: 1.8rem;
-            margin-left: -1rem;
-        }
-    
-        .post {
-            flex-direction: column-reverse;
-            flex-wrap: nowrap;
-        }
-    
-        .post img {
-            width: 84vw;
-            height: 45vw;
-            border-top-left-radius:3vw ;
-            border-top-right-radius: 3vw;
-        }
-        #last-pic{
-            margin-left: 9vw;
-        }
-        .memories{
-            display: none;
-        }
-        .memories2{
-            display: inline;
-        }
-        .share {
-            border: none;
-            box-shadow: none;
-        }
-    
-        .image-wrap {
-            border: none;
-            box-shadow: none;
-            margin-left: 2.3rem;
-        }
-    
-        .mission {
-            padding-top: 14.5rem;
-            width: 76vw;
-            border: 0.08rem solid #4c7ac7;
-            box-shadow: 0 0 3px;
-            border-radius: 3vw ;
-        }
-    
-        .poland {
-            padding-top: 13.4rem;
-            border: 0.08rem solid #4c7ac7;
-            box-shadow: 0 0 3px;
-            width: 76vw;
-            border-radius: 3vw;
-        }
-    
-        .share {
-            border: 0.08rem solid #4c7ac7;
-            box-shadow: 0 0 3px;
-            width: 84vw;
-            padding-bottom: 6vw;
-            position: relative;
-            left: -2rem;
-            border-radius: 3vw;
-        }
-    
-        #Explore {
-            top: -1.5rem;
-            margin-left: 4.5rem;
-        }
-        #amaze {
-            top: -1.9rem;
-            margin-left: 5.5rem;
-        }
-        #Like{
-            margin-left: 4rem;
-            position: relative;
-            top: 3vw;
-        }
-        .contact {
-            flex-direction: column;
-        }
-    
-        .final {
-            background: none;
-        }
-        .inform{
-            background-color: #81bdd3;
-                width: 100%;
-                height: 100vh;
-                margin-left: -1vw;
-        }
-        .contact img{
-            display: none;
-        }
-        .inform h2 {
-            text-align: center;
-        }
-    
-        .inform p {
-            text-align: center;
-        }
-    
-        .input-one{
-            display: none;
-        }
-        .input-two{
-            display: block;
-        }
-        .contact .input-two input::placeholder{
-            font-size: 1.3rem;
-            padding-left: 0.8rem;
-        }
-        .contact .input-two input{
-            width: 78%;
-            border: 0.08rem solid #fdfcfc;
-        }
-        .contact .input-two textarea{
-            width: 78%;
-            border: 0.08rem solid #fdfcfc;
-        }
-        .contact .input-two textarea::placeholder{
-            font-size: 1.4rem;
-            padding-left: 0.8rem;
-        }
-           .inform button {
-               margin-top: 2rem;
-               margin-left: 22.6vw;
-           }
-        footer {
-            text-align: center;
-            font-size: 1rem;
-            padding: 2rem 0;
-            width: 100%;}
-                        
-                            .bxl-instagram {
-                                right: 2rem;
-                                top: 10rem;
-                            }
-            
-                            .bxl-facebook {
-                                right: 2rem;
-                                top: 7rem;
-                            }
-            
-                            .bxl-pinterest {
-                                right: 2rem;
-                                top: 4rem;
-                            }
-                        
-}
-
-
-@media (max-width:375px) {
-    
-}
-
-
 .one{
     text-align: center;
     margin-top: 7vw;
@@ -1513,4 +919,984 @@ border-radius: 2vw;
 }
 .column5:hover{
     transform: translateX(-5vw);
+}
+
+
+
+@media (max-width:768px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .background {
+        width: 100%;
+        height: 50vh;
+        margin: 0;
+    }
+
+    .background h1 {
+        font-size: 3.7rem;
+        padding-top: 8.5rem;
+    }
+        .background2 {
+            padding-top: 16.2vw;
+            padding-bottom: 2vw;
+            font-size: 3rem;
+        }
+
+    .navigation ol {
+        flex-wrap: wrap;
+        gap: 3.5vw;
+        justify-content: center;
+        border: none;
+        width: 100%;
+        padding-top: -2.5vw;
+        height: 4vh;
+    }
+         .one p {
+             width: 80vw;
+             font-size: 1rem;
+             line-height: 2;
+             margin-left: 9.5vw;
+             padding-bottom: 1.2vw;
+         }
+                 .choose ol li {
+                     text-align: left;
+                     line-height: 2;
+                     margin-left: 8vw;
+                     list-style-type: none;
+                     font-size: 1rem;
+                 }
+                                 .more p {
+                                     font-size: 1rem;
+                                     line-height: 2;
+                                     width: 85vw;
+                                     margin-left: 8.5vw;
+                                    }
+        .story p {
+            font-size: 1rem;
+            width: 85vw;
+            margin-left: 8.5vw;
+        }
+
+        .grid span {
+            margin-left: 6vw;
+        }
+    #team {
+        position: absolute;
+        top: 4vw;
+        left: 29.8vw;
+    }
+
+    #travel {
+        position: absolute;
+        top: 0.6vw;
+        left: 37.5vw;
+    }
+
+    #business {
+        position: absolute;
+        top: 4vw;
+        left: 38.8vw;
+    }
+
+    .first {
+        width: 100%;
+        margin-bottom: -12vw;
+    }
+
+    .travel h2 {
+        font-size: 1.8rem;
+        position: absolute;
+        left: 40vw;
+        top: 17.5vw;
+    }
+
+    .travel img {
+        margin-left: 6vw;
+    }
+
+    .travel p {
+        font-size: 0.9rem;
+        width: 45vw;
+        line-height: 2;
+        font-weight: 100;
+        margin-bottom: 6.5vw;
+        margin-top: -7rem;
+    }
+
+    .click {
+        margin-left: -2.2rem;
+    }
+
+    .about {
+        flex-direction: column;
+        padding-top: 12vw;
+        align-items: center;
+    }
+
+    .about p {
+        width: 60vw;
+        margin-left: -9vw;
+    }
+
+    .aboutus {
+        margin-top: 1.5rem;
+    }
+
+    .about img {
+        width: 52vw;
+        padding-top: 3vw;
+    }
+
+    .three {
+        width: 100%;
+        padding-top: 4rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .three h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .service {
+        justify-content: flex-start;
+        gap: 0.9rem;
+        padding-top: 5vw;
+        padding-left: 6vw;
+        margin-bottom: 6vw;
+    }
+
+    .fourth h2 {
+        font-size: 1.5rem;
+        margin-bottom: 4vw;
+    }
+
+    .bx-chevron-left {
+        display: none;
+    }
+
+    .bx-chevron-right {
+        display: none;
+    }
+
+    .review {
+        top: -0.5rem;
+        left: -29vw;
+        width: 54vw;
+    }
+
+    .customer-review {
+        width: 54vw;
+        line-height: 1.8;
+    }
+
+    .fifth h2 {
+        margin-top: 7vw;
+        padding-top: 30vw;
+        font-size: 1.8rem;
+    }
+
+    .post {
+        justify-content: flex-start;
+        gap: 4.5vw;
+    }
+
+    .post img {
+        width: 40vw;
+        height: 35vw;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+
+    .share {
+        border: none;
+        box-shadow: none;
+    }
+
+    .image-wrap {
+        border: none;
+        box-shadow: none;
+        border-radius: 1rem;
+    }
+
+    .memories {
+        display: none;
+    }
+
+    .memories2 {
+        display: inline;
+        line-height: 2;
+        font-size: 0.9rem;
+        padding: 1.2vw;
+    }
+
+    .mission {
+        padding-top: 18.5rem;
+        width: 35.4vw;
+        border: 0.08rem solid #4c7ac7;
+        box-shadow: 0 0 3px;
+        border-radius: 3vw;
+    }
+
+    .poland {
+        padding-top: 17.4rem;
+        border: 0.08rem solid #4c7ac7;
+        box-shadow: 0 0 3px;
+        width: 35.4vw;
+        border-radius: 3vw;
+    }
+
+    .share {
+        border: 0.08rem solid #4c7ac7;
+        box-shadow: 0 0 3px;
+        width: 39.8vw;
+        margin-bottom: 2vw;
+        border-radius: 3vw;
+    }
+
+
+.business h2 {
+    padding-top: 2vw;
+    font-size: 3rem;
+}
+
+.business h3 {
+    font-size: 1.5rem;
+}
+
+.business p {
+    font-size: 1rem;
+    width: 82vw;
+    margin-left: 9vw;
+}
+
+.column {
+    width: 85vw;
+    gap: 3.5vw;
+    margin-left: 8vw;
+}
+
+.column h3 {
+    text-align: center;
+    padding-top: 1.8vw;
+}
+
+.column p {
+    width: 35vw;
+    text-align: center;
+    margin-left: 0.5vw;
+    padding: 0 2vw 2.5vw;
+}
+    #Explore {
+        top: -1.3rem;
+        margin-left: 6.5rem;
+    }
+
+    #amaze {
+        top: -1.9rem;
+    }
+
+    #last-pic {
+        margin-left: 32vw;
+    }
+
+    .contact img {
+        display: none;
+    }
+.write {
+    background-color: #71bfec;
+    width: 25vw;
+    border-top-right-radius: 1.7vw;
+    border-bottom-right-radius: 1.7vw;
+}
+
+.holiday h2 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 3vw;
+    letter-spacing: 0.1vw;
+    text-shadow: 0 0 5px #0a50c9;
+    margin-top: 4vw;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+    border: 0.1rem solid #71bfec;
+    width: 47.84vw;
+    height: 20.7vw;
+    margin-bottom: 3vw;
+    margin-left: 22rem;
+    border-radius: 2vw;
+    box-shadow: 0 0 3px;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    border: 0.1rem solid #71bfec;
+    width: 47.84vw;
+    height: 20.95vw;
+    margin-bottom: 3vw;
+    margin-left: 22rem;
+    border-radius: 2vw;
+    box-shadow: 0 0 3px;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: center;
+    border: 0.1rem solid #71bfec;
+    width: 47.84vw;
+    height: 20.6vw;
+    margin-bottom: 3vw;
+    margin-left: 22rem;
+    border-radius: 2vw;
+    box-shadow: 0 0 3px;
+}
+
+.flex4 {
+    display: flex;
+    justify-content: center;
+    border: 0.1rem solid #71bfec;
+    width: 47.84vw;
+    height: 20.9vw;
+    margin-bottom: 3vw;
+    margin-left: 22rem;
+    border-radius: 2vw;
+    box-shadow: 0 0 3px;
+}
+
+.flex5 {
+    display: flex;
+    justify-content: center;
+    border: 0.1rem solid #71bfec;
+    width: 47.84vw;
+    height: 20.8vw;
+    margin-bottom: 3vw;
+    margin-left: 22rem;
+    border-radius: 2vw;
+    box-shadow: 0 0 3px;
+}
+
+.flex6 {
+    display: flex;
+    justify-content: center;
+    border: 0.1rem solid #71bfec;
+    width: 47.8vw;
+    height: 20.8vw;
+    margin-bottom: 3vw;
+    margin-left: 22rem;
+    border-radius: 2vw;
+    box-shadow: 0 0 3px;
+}
+
+#image4 {
+    position: relative;
+    left: 2vw;
+}
+
+#image5 {
+    position: relative;
+    left: 0.8vw;
+}
+
+.employ {
+    padding: 6vw 0 1.5vw;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.employ2 {
+    padding: 6vw 0 1.5vw;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.book-us {
+    text-align: center;
+    padding-bottom: 2vw;
+}
+
+.button {
+    color: #71bfec;
+    border: 0.08rem solid;
+    background-color: #fcfcfdea;
+    padding: 0.8rem 2.5rem;
+    font-size: 0.9rem;
+    margin-left: 6.5vw;
+    border-radius: 4.5rem;
+    transition: 1s ease-in-out;
+}
+
+.button:hover {
+    background: transparent;
+    color: white;
+    box-shadow: 0 0 12px;
+    transform: translateX(2.5vw);
+}
+
+.grids {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6vw;
+    margin-bottom: 9vw;
+}
+
+.grids img:hover {
+    transform: scale(0.8);
+}
+
+.grids img {
+    width: 30vw;
+    height: 26vw;
+}
+
+.grids p {
+    font-size: 1.6rem;
+    font-weight: 550;
+    width: 28.6vw;
+    padding: 0.2rem 0.5rem 0;
+    background-color: white;
+    box-shadow: 0 0 3px;
+    transition: 1s ease-in-out;
+}
+
+.grids p:hover {
+    background-color: #71bfec;
+    color: white;
+}
+
+.area-name1 {
+    position: absolute;
+    border: 0.1rem solid #71bfec;
+    left: -1vw;
+    top: 248vw;
+}
+
+.area-name2 {
+    position: absolute;
+    border: 0.1rem solid #71bfec;
+    left: 35vw;
+    top: 248vw;
+}
+
+.area-name3 {
+    position: absolute;
+    border: 0.1rem solid #71bfec;
+    left: -1vw;
+    top: 280.6vw;
+}
+
+.area-name4 {
+    position: absolute;
+    border: 0.1rem solid #71bfec;
+    left: 35vw;
+    top: 280.6vw;
+}
+    .final {
+        background-color: #81bdd3;
+        width: 100%;
+    }
+
+    .inform {
+        margin-left: 8vw;
+    }
+
+    .inform h2 {
+        text-align: center;
+    }
+
+    .inform p {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .contact input {
+        width: 12.5rem;
+        height: 2.5rem;
+        margin-left: 3rem;
+        border: 0.18 solid black;
+    }
+
+    .text {
+        margin-left: 3rem;
+    }
+
+    .user {
+        margin-left: 12.8rem;
+    }
+
+    .users {
+        margin-left: 15.2rem;
+    }
+
+    .inform textarea {
+        width: 24.8rem;
+        height: 3.5rem;
+        margin-left: 3.2rem;
+        border: 0.18 solid black;
+    }
+
+    .inform button {
+        margin-bottom: 5vw;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 1rem;
+        padding: 2rem 0;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:450px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .background {
+        width: 100%;
+        height: 35vh;
+    }
+
+    .background h1 {
+        font-size: 2.8rem;
+        padding-top: -10vw;
+    }
+
+    .navigation ol {
+        box-shadow: 0 0 3px;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+        padding-bottom: 1.5rem;
+        margin-top: 0;
+        padding-left: 2vw;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9;
+        height: 3vh;
+    }
+        .background2 {
+            padding-top: 22.2vw;
+            padding-bottom: 1vw;
+            font-size: 1.6rem;
+        }
+         .grid span {
+             margin-left: 12vw;
+         }
+        .story h2 {
+            margin-top: 5vw;
+            line-height: 2;
+        }
+    #team {
+        position: absolute;
+        top: 2vw;
+        left: 21.5vw;
+    }
+
+    #travel {
+        position: absolute;
+        top: 0.6vw;
+        left: 33.5vw;
+    }
+
+    #business {
+        position: absolute;
+        top: 9vw;
+        left: 34.8vw;
+    }
+
+        .choose ol li {
+            text-align: left;
+            line-height: 2;
+            margin-left: 8vw;
+            list-style-type: none;
+            font-size: 0.95rem;
+        }
+    .first {
+        background: none;
+    }
+
+    .visa {
+        background: linear-gradient(to bottom, #75b7cf, #a7d9f0);
+        width: 100%;
+        padding-bottom: 12vw;
+    }
+
+    .travel {
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+    }
+
+    .travel h2 {
+        font-size: 1.8rem;
+        position: relative;
+        color: #ffffff;
+        top: -58vw;
+        left: 1vw;
+    }
+        .one p {
+            width: 80vw;
+            font-size: 1rem;
+            line-height: 2;
+            margin-left: 9.5vw;
+            padding-bottom: 1.2vw;
+            text-align: justify;
+        }
+        .more p {
+            font-size: 1rem;
+            line-height: 2;
+            width: 85vw;
+            margin-left: 8.5vw;
+            text-align: justify;
+        }
+    
+        .story p {
+            font-size: 1rem;
+            width: 85vw;
+            margin-left: 8.5vw;
+            text-align: justify;
+        }
+    .travel img {
+        margin-left: 20vw;
+        width: 65vw;
+        margin-top: -25vw;
+        margin-bottom: -20vw;
+    }
+
+    .travel p {
+        width: 82vw;
+        margin-left: 9vw;
+        font-size: 1.1rem;
+        line-height: 2;
+        font-weight: 100;
+        margin-bottom: 1.5rem;
+        margin-top: -52vw;
+        text-align: justify;
+    }
+
+    .click {
+        margin-left: -1vw;
+    }
+.business h2 {
+    padding-top: 2.5vw;
+    font-size: 1.8rem;
+}
+
+.business h3 {
+    font-size: 1.1rem;
+}
+
+.business p {
+    font-size: 1rem;
+    width: 82vw;
+    margin-left: 9vw;
+    text-align: justify;
+}
+
+.column {
+    grid-template-columns: repeat(1,1fr);
+    width: 85vw;
+    gap: 3.5vw;
+    margin-left: 8vw;
+}
+
+.column h3 {
+    text-align: center;
+    padding-top: 1.8vw;
+}
+
+.column p {
+    width: 78vw;
+    text-align: center;
+    margin-left: 0.5vw;
+    padding: 0 2vw 4.5vw;
+}
+    .about {
+        flex-direction: column;
+        padding-top: 0.2rem;
+    }
+
+    .about h2 {
+        margin-left: -25vw;
+    }
+
+    .about p {
+        width: 85vw;
+        margin-left: -13.5vw;
+        text-align: justify;
+    }
+
+    .aboutus {
+        margin-top: 1.5rem;
+    }
+
+    #read {
+        margin-left: -22vw;
+    }
+
+    .about img {
+        width: 80vw;
+        padding-top: 3.5vw;
+    }
+
+    .three {
+        background: none;
+        box-shadow: none;
+    }
+
+    .wedo {
+        width: 80vw;
+        background-color: #81bdd3;
+        padding-top: 4rem;
+        padding-bottom: 1.5rem;
+        border-top-right-radius: 45%;
+        border-bottom-left-radius: 45%;
+        box-shadow: 0 0 3px;
+        margin-left: 1.3rem;
+    }
+
+    .three h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #0a50c9;
+        margin-top: -25vw;
+    }
+
+    .three p {
+        width: 75vw;
+        padding-left: 13.2vw;
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+    .service {
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .service h2 {
+        color: white;
+        margin-top: -3.5rem;
+        margin-left: -0.5rem;
+    }
+
+    .service h3 {
+        padding-bottom: -5rem;
+    }
+
+    .service p {
+        margin-left: 7.5vw;
+        width: 65vw;
+        padding:  0 2vw 1.5vw;
+    }
+
+    .fourth h2 {
+        font-size: 1.5rem;
+        margin-left: 3rem;
+        margin-bottom: 1rem;
+        margin-top: -9vw;
+    }
+
+    .bx-chevron-left {
+        display: none;
+    }
+
+    .bx-chevron-right {
+        display: none;
+    }
+
+    .review {
+        top: -2.5rem;
+        left: -37vw;
+        width: 65vw;
+    }
+
+    .customer-review {
+        width: 62vw;
+        line-height: 1.8;
+    }
+
+    .fifth h2 {
+        margin-top: 9rem;
+        padding-top: 14rem;
+        font-size: 1.8rem;
+        margin-left: -1rem;
+    }
+
+    .post {
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
+
+    .post img {
+        width: 84vw;
+        height: 45vw;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+    }
+
+    #last-pic {
+        margin-left: 9vw;
+    }
+
+    .memories {
+        display: none;
+    }
+
+    .memories2 {
+        display: inline;
+    }
+
+    .share {
+        border: none;
+        box-shadow: none;
+    }
+
+    .image-wrap {
+        border: none;
+        box-shadow: none;
+        margin-left: 2.3rem;
+    }
+
+    .mission {
+        padding-top: 14.5rem;
+        width: 76vw;
+        border: 0.08rem solid #4c7ac7;
+        box-shadow: 0 0 3px;
+        border-radius: 3vw;
+    }
+
+    .poland {
+        padding-top: 13.4rem;
+        border: 0.08rem solid #4c7ac7;
+        box-shadow: 0 0 3px;
+        width: 76vw;
+        border-radius: 3vw;
+    }
+
+    .share {
+        border: 0.08rem solid #4c7ac7;
+        box-shadow: 0 0 3px;
+        width: 84vw;
+        padding-bottom: 6vw;
+        position: relative;
+        left: -2rem;
+        border-radius: 3vw;
+    }
+
+    #Explore {
+        top: -1.5rem;
+        margin-left: 4.5rem;
+    }
+
+    #amaze {
+        top: -1.9rem;
+        margin-left: 5.5rem;
+    }
+
+    #Like {
+        margin-left: 4rem;
+        position: relative;
+        top: 3vw;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .final {
+        background: none;
+    }
+
+    .inform {
+        background-color: #81bdd3;
+        width: 100%;
+        height: 100vh;
+        margin-left: -1vw;
+    }
+
+    .contact img {
+        display: none;
+    }
+
+    .inform h2 {
+        text-align: center;
+    }
+
+    .inform p {
+        text-align: center;
+    }
+
+    .input-one {
+        display: none;
+    }
+
+    .input-two {
+        display: block;
+    }
+
+    .contact .input-two input::placeholder {
+        font-size: 1.3rem;
+        padding-left: 0.8rem;
+    }
+
+    .contact .input-two input {
+        width: 78%;
+        border: 0.08rem solid #fdfcfc;
+    }
+
+    .contact .input-two textarea {
+        width: 78%;
+        border: 0.08rem solid #fdfcfc;
+    }
+
+    .contact .input-two textarea::placeholder {
+        font-size: 1.4rem;
+        padding-left: 0.8rem;
+    }
+
+    .inform button {
+        margin-top: 2rem;
+        margin-left: 22.6vw;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 1rem;
+        padding: 2rem 0;
+        width: 100%;
+    }
+
+    .bxl-instagram {
+        right: 2rem;
+        top: 10rem;
+    }
+
+    .bxl-facebook {
+        right: 2rem;
+        top: 7rem;
+    }
+
+    .bxl-pinterest {
+        right: 2rem;
+        top: 4rem;
+    }
+
+}
+
+
+@media (max-width:375px) {
+
 }
